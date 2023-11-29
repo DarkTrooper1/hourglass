@@ -9,10 +9,12 @@ img {
   height: 150px;
   border-radius: 20px;
   margin-right: 30px;
+  transition: transform 2s;
 }
 
 img:hover {
   cursor: pointer;
+  transform: scale(1.2, 1.2);
 }
 
 iframe {

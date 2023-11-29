@@ -11,19 +11,24 @@
 
 <body>
   <script src="script.js"></script>
-  <h1>⌛ Project Hourglass</h1>
-  <div id="images">
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-    <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
-  </div>
-  <div id="gamePage">
-    <p>This is only an example game. Soon, your games will be added here.</p>
-    <h1>Drive Mad</h1>
-    <iframe id="gameIframe" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+  <video autoplay muted id="myVideo" class="myVideo" onended="displayBody()">
+    <source src="HiTech Tunnel.mp4" type="video/mp4">
+  </video>
+  <div id="content">
+    <h1>⌛ Hourglass</h1>
+    <div id="images">
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+      <p><a onclick="gameIframe()"><img src="Drive Mad/logo.jpg" alt="Cool Picture"></a></p>
+    </div>
+    <div id="gamePage">
+      <p>This is only an example game. Soon, your games will be added here.</p>
+      <h1>Drive Mad</h1>
+      <iframe id="gameIframe" allowtransparency="true" frameborder="0" scrolling="no" allowfullscreen></iframe>
+    </div>
   </div>
 </body>
-</html>

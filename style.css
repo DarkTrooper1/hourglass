@@ -47,6 +47,18 @@ button {
   cursor: pointer;
 }
 
-darkMode {
-  background-color: black;
+#content {
+  display: none;
+}
+
+.myVideo {
+  opacity: 1;
+  animation: fade-out 3s;
+  animation-delay: 15s;
+}
+
+@keyframes fade-out {
+  0% {opacity: 1;}
+  50% {opacity: 0.5;}
+  100% {opacity: 0.1;}
 }

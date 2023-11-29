@@ -1,0 +1,52 @@
+html {
+  height: 100%;
+  width: 100%;
+  color: orange;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  border-radius: 20px;
+  margin-right: 30px;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+iframe {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 600px;
+}
+
+#gamePage {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: none;
+}
+
+#images {
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  font-size: 20px;
+  background-color: white;
+  border: none;
+  color: orange;
+  cursor: pointer;
+}
+
+darkMode {
+  background-color: black;
+}
